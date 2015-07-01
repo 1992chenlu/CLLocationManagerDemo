@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import <CoreMotion/CoreMotion.h>
+
+
+
 @interface FirstViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *textview1;
+@property (strong, nonatomic) CMMotionManager *motionManager;
 
 @end
-
